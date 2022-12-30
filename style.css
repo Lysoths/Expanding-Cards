@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.container {
+  display: Flex;
+  width: 90vw;
+}
+
+.box {
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  position: relative;
+  flex: 0.4;
+  color: white;
+  border-radius: 30px;
+  margin: 10px;
+  transition: all 1s ease-in-out;
+  color: transparent;
+}
+
+h3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 15px;
+}
+
+.active {
+  flex: 1;
+  color: White;
+  transition: flex 0.8 ease-in-out;
+}
